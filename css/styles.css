@@ -213,23 +213,23 @@ body {
 
 .main-link-solid:hover {
 	background-color: rgba(222, 46, 84, 0.8);
-  border-color: transparent;
+	border-color: transparent;
 	color: #fff;
 }
 .main-link-solid:active {
 	background-color: rgba(222, 46, 84, 0.6);
-  opacity: 1;
+	opacity: 1;
 }
 
 /* HERO */
 .hero {
 	background-color: #0eb4c1;
-  color: #fff;
+	color: #fff;
 }
 
 .hero-container {
-  display: flex;
-  justify-content: space-between;  
+	display: flex;
+	justify-content: space-between;
 }
 
 .hero-content {
@@ -259,6 +259,72 @@ body {
 	align-self: flex-end;
 }
 
+/* INDEX-SERVICES */
+
+.index-services {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.index-services-heading {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 56px;
+	font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 120%;
+	color: #000;
+}
+
+.index-services-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 864px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.index-services-item:not(:last-child) {
+	margin-bottom: 80px;
+}
+
+.index-service {
+	display: flex;
+	align-items: center;
+}
+
+.index-service-img {
+	width: 200px;
+	height: 200px;
+	margin-right: 64px;
+	object-fit: cover;
+	box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0.3);
+	border-radius: 24px;
+}
+
+.index-service-content {
+	width: 600px;
+}
+
+.index-service-title {
+	margin-top: 0;
+	margin-bottom: 24px;
+	font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 120%;
+	color: #222;
+}
+
+.index-service-description {
+	color: #444;
+	margin: 0;
+}
+
+
+.index-services-actions {
+	text-align: center;
+}
 /* SITE-FOOTER */
 .site-footer {
 	background-color: #222;
