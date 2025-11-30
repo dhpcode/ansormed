@@ -4,9 +4,82 @@
 	box-sizing: border-box;
 }
 
+/* fonts */
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-Regular.eot");
+	src: url("../fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+		url("../fonts/OpenSans-Regular.woff") format("woff"),
+		url("../fonts/OpenSans-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-SemiBold.eot");
+	src: url("../fonts/OpenSans-SemiBold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-SemiBold.woff2") format("woff2"),
+		url("../fonts/OpenSans-SemiBold.woff") format("woff"),
+		url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-Bold.eot");
+	src: url("../fonts/OpenSans-Bold.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+		url("../fonts/OpenSans-Bold.woff") format("woff"),
+		url("../fonts/OpenSans-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("../fonts/OpenSansCondensed-Regular.eot");
+	src: url("../fonts/OpenSansCondensed-Regular.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/OpenSansCondensed-Regular.woff2") format("woff2"),
+		url("../fonts/OpenSansCondensed-Regular.woff") format("woff"),
+		url("../fonts/OpenSansCondensed-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans Condensed";
+	src: url("../fonts/OpenSansCondensed-Bold.eot");
+	src: url("../fonts/OpenSansCondensed-Bold.eot?#iefix")
+			format("embedded-opentype"),
+		url("../fonts/OpenSansCondensed-Bold.woff2") format("woff2"),
+		url("../fonts/OpenSansCondensed-Bold.woff") format("woff"),
+		url("../fonts/OpenSansCondensed-Bold.ttf") format("truetype");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* fonts
+- Open sans 400, 600, 700
+- Open sans Condensed 700
+*/
+
 body {
 	padding: 0;
 	margin: 0;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444;
 }
 
 /* CONTAINER */
@@ -14,6 +87,6 @@ body {
 	width: 100%;
 	max-width: 1160px;
 	padding: 0 30px;
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
