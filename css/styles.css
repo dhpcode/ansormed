@@ -1,5 +1,7 @@
 /* GLOBAL STYLES */
-
+html {
+	scroll-behavior: smooth;
+}
 * {
 	box-sizing: border-box;
 }
@@ -221,6 +223,18 @@ body {
 	opacity: 1;
 }
 
+.main-link-outline {
+	background-color: transparent;
+	border-color: #fff;
+}
+
+.main-link-outline:hover {
+	border-color: #de2e54;
+	background-color: #de2e54;
+	color: #fff;
+}
+
+
 /* HERO */
 .hero {
 	background-color: #0eb4c1;
@@ -321,14 +335,39 @@ body {
 	margin: 0;
 }
 
-
 .index-services-actions {
 	text-align: center;
 }
+
+/* Cta */
+.cta {
+	padding: 64px 0;
+	background-color: #0eb4c1;
+	color: #fff;
+}
+
 /* SITE-FOOTER */
 .site-footer {
 	background-color: #222;
 	padding: 24px 0;
+}
+
+.cta-heading {
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	line-height: 120%;
+	text-align: center;
+}
+.cta-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cta-links a:not(:last-child) {
+	margin-right: 40px;
 }
 
 .site-footer-container {
