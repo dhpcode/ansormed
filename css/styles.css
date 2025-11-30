@@ -328,6 +328,7 @@ body {
 /* SITE-FOOTER */
 .site-footer {
 	background-color: #222;
+	padding: 24px 0;
 }
 
 .site-footer-container {
